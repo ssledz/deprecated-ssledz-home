@@ -87,7 +87,8 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-export PATH=$JAVA_HOME/bin:$PATH
+HOME_BIN="$HOME/bin"                                                                                                            
+export PATH="$HOME_BIN/apache-maven/bin:$HOME_BIN/gradle/bin:$HOME_BIN/sbt/bin:$HOME_BIN/apache-ant/bin:$PATH"
 export SVN_EDITOR=vim
 
 export PATH="$HOME/.jenv/bin:$PATH"                                                                                                 
