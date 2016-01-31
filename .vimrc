@@ -47,6 +47,12 @@ set hlsearch
 "clear out a search by typing <leader><space>
 nnoremap <leader><space> :noh<cr>
 
+set spell
+
+set textwidth=79
+set colorcolumn=+1
+highlight ColorColumn ctermbg=lightgrey
+
 "Plugins configuration
 call pathogen#helptags()
 autocmd vimenter * NERDTree
