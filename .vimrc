@@ -7,17 +7,6 @@ syntax enable
 set background=dark
 colorscheme solarized
 
-call pathogen#helptags()
-autocmd vimenter * NERDTree
-
-" Add triggers to ycm for LaTeX-Box autocompletion
-let g:ycm_semantic_triggers = {
-\  'tex'  : ['{'],
-\ }
-
-"use omnicomplete whenever there's no completion engine in youcompleteme
-set omnifunc=syntaxcomplete#Complete
-
 "all tabs expand to four spaces
 set tabstop=4
 set shiftwidth=4
@@ -50,3 +39,22 @@ set relativenumber
 "undo information so previous actions can be undone even after closing and
 "reopening a file.
 set undofile
+
+"highlight search results
+set incsearch
+set showmatch
+set hlsearch
+"clear out a search by typing <leader><space>
+nnoremap <leader><space> :noh<cr>
+
+"Plugins configuration
+call pathogen#helptags()
+autocmd vimenter * NERDTree
+
+" Add triggers to ycm for LaTeX-Box autocompletion
+let g:ycm_semantic_triggers = {
+\  'tex'  : ['{'],
+\ }
+
+"use omnicomplete whenever there's no completion engine in youcompleteme
+set omnifunc=syntaxcomplete#Complete
