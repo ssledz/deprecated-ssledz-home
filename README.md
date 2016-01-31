@@ -25,3 +25,8 @@ curl -sL https://raw.githubusercontent.com/egalpin/apt-vim/master/install.sh | s
  cd ~/.vim/bundle/YouCompleteMe
  ./install.py --clang-completer
  ```
+ * [LaTeX-Box](https://github.com/LaTeX-Box-Team/LaTeX-Box) - Lightweight Toolbox for LaTeX
+ ```
+ cd ~/.vim
+ git clone git://github.com/LaTeX-Box-Team/LaTeX-Box.git bundle/LaTeX-Box
+ ```
