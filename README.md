@@ -56,3 +56,9 @@ to paste to vim from clipboard type:
 Other useful clipboard commands
 * ```"+2yy``` – copy two lines to X11 clipboard
 * ```"+dd``` – cut line to X11 clipboard
+
+### resources
+* [VIM configuration for happy Java coding](http://www.lucianofiandesio.com/vim-configuration-for-happy-java-coding)
+* [The Ultimate Vim Distribution](http://vim.spf13.com/#install)
+* [spf13-vim](https://github.com/spf13/spf13-vim)
+* [Coming Home to Vim](http://stevelosh.com/blog/2010/09/coming-home-to-vim/)
