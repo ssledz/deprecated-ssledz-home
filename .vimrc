@@ -6,7 +6,6 @@ set nocompatible
 syntax enable
 set background=dark
 colorscheme solarized
-set number
 
 call pathogen#helptags()
 autocmd vimenter * NERDTree
@@ -18,3 +17,36 @@ let g:ycm_semantic_triggers = {
 
 "use omnicomplete whenever there's no completion engine in youcompleteme
 set omnifunc=syntaxcomplete#Complete
+
+"all tabs expand to four spaces
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+
+set encoding=utf-8
+set scrolloff=3
+set autoindent
+set showmode
+set showcmd
+set hidden
+"let command-line completion operate in an enhanced mode
+set wildmenu
+set wildmode=list:longest
+"use visual bell instead of beeping
+set visualbell
+set cursorline
+set ttyfast
+"show the line and column number of the cursor position
+set ruler
+set backspace=indent,eol,start
+"have always a status line
+set laststatus=2
+set number
+"display how far away each line is from the current one, instead of showing
+"the absolute line number
+set relativenumber
+"create <FILENAME>.un~ files whenever a file is edited. These files contain
+"undo information so previous actions can be undone even after closing and
+"reopening a file.
+set undofile
