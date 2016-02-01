@@ -26,6 +26,7 @@ curl -sL https://raw.githubusercontent.com/egalpin/apt-vim/master/install.sh | s
  sudo apt-get install build-essential cmake
  sudo apt-get install python-dev
  cd ~/.vim/bundle/YouCompleteMe
+ git submodule update --init --recursive
  ./install.py --clang-completer
  ```
  * [LaTeX-Box](https://github.com/LaTeX-Box-Team/LaTeX-Box) - Lightweight Toolbox for LaTeX
