@@ -22,7 +22,7 @@ curl -sL https://raw.githubusercontent.com/egalpin/apt-vim/master/install.sh | s
  * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - a code-completion engine for Vim
  ```
  cd ~/.vim
- git clone (https://github.com/Valloric/YouCompleteMe bundle/YouCompleteMe
+ git clone https://github.com/Valloric/YouCompleteMe bundle/YouCompleteMe
  sudo apt-get install build-essential cmake
  sudo apt-get install python-dev
  cd ~/.vim/bundle/YouCompleteMe
