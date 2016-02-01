@@ -34,6 +34,11 @@ curl -sL https://raw.githubusercontent.com/egalpin/apt-vim/master/install.sh | s
  cd ~/.vim
  git clone git://github.com/LaTeX-Box-Team/LaTeX-Box.git bundle/LaTeX-Box
  ```
+ * [A Personal Wiki For Vim](https://github.com/vimwiki/vimwiki)
+ ```
+ cd ~/.vim
+ git clone https://github.com/vimwiki/vimwiki.git bundle/vimwiki
+ ```
 
 ### system clipboard integration
 
