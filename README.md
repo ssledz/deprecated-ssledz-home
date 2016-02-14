@@ -1,6 +1,13 @@
 # ssledz-home
 Project started to simplify maintaining of my home directory
 
+## gnome terminal solarized colors configuration
+```
+git clone https://github.com/sigurdga/gnome-terminal-colors-solarized
+cd gnome-terminal-colors-solarized
+sh install.sh -s dark -p <my_current_profile>
+```
+
 ## vim
 
 ### installation
