@@ -1,6 +1,14 @@
 # ssledz-home
 Project started to simplify maintaining of my home directory
 
+## mate terminal solarized colors configuration
+
+```
+git clone https://github.com/NeuralSandwich/mate-terminal-colors-solarized.git
+cd mate-terminal-colors-solarized
+./install.sh
+```
+
 ## gnome terminal solarized colors configuration
 ```
 git clone https://github.com/sigurdga/gnome-terminal-colors-solarized
